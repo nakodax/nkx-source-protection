@@ -1,0 +1,678 @@
+{
+  "version": 3,
+  "kdf": {
+    "salt": "iogBHQAnbVJqNtOdO4YVUA==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "context": {
+    "build_id": "5f264e0c-26f1-4526-bb0d-6c24a035efc5",
+    "runtime_sources": []
+  },
+  "slot_prefix": "core",
+  "files": {
+    "pyproject.toml": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "uLMtw9+KyFTGHkrZofBB73DFE4RhXbM7+Rjw8yfdxKbESBKaiZjX9t3H1nxUxLl+ZNxcuoDA/zhgb+gw",
+      "sha256": "5390ff1a563217928b42925cdaa2be9ab719f736ce6a7a08d70d5a2a698e81f9",
+      "enc_sha256": "7d32e1c2da79e1a837bcf550f951d772ac2f6840870cdb68c0e6b27346c0c751"
+    },
+    "src/nkx_engine/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "EhKavQaQ7LWWNnJV9kFgSvp+WwDSNhO1+N2RH9zbXIgVagWXHM4bf5ZuBMB19UTWC1cONeHE8/aZePl5",
+      "sha256": "cd7f682c118e37c29941da2f3cdd3d20d10f31736f7dedcd6bc64ce3923726ea",
+      "enc_sha256": "266e50776a9d5c9df2c54acbdbab3e4bfedcc20a181ad186c3c39e4abb6b179d"
+    },
+    "src/nkx_engine/lang/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "wFc6XWi7rpguo4Va9dtKKSHY3mguxG3ouFtRzLeEzL/yjrfqGHIfH3qwwrlgC9cmGoaIlBvbhXDlLjIp",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "8558c66cffabedb939f6baa5822dd780f2627806ee2084cbe2ebff4838627d09"
+    },
+    "src/nkx_engine/lang/decorators.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "APCG/+xsoIFLaMh9kPTcPrQ5muqPYq/ll2ZNN0LjbtA2W3i1eOYCBOk/KHoIguhfrXy4nRM/DeLJK1De",
+      "sha256": "0acf19b30449c5c753442854e8de289db02a036261e89845212a38be4243d3fd",
+      "enc_sha256": "d75700f0ccdcb629fee2290889356084e248811e0fa485b7ea1fc4d5c1c3839e",
+      "module": "src.nkx_engine.lang.decorators",
+      "wrapped_mock_dek": "qZ46z2BI4Ej8ZuQlNkDR9IVP8NlWk2CF69fypRZ+v3nM1LGlxLZ+WmLxYHoJhae5YaAi/M+CtP/4WF5o",
+      "mock": "src/nkx_engine/lang/decorators.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/esm_interop.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "Fv0iKSCtAWFairBHvjnQie92qt57GuDdZAT+iJJs7OgbHGTfVXtCtAY6bqw3VpSMw2aT1/47j1Mze31V",
+      "sha256": "478ed66b211e147715ef0946b50125c3fd9d9a6365172911526df97df66de26a",
+      "enc_sha256": "03b8b70172ad33ad87072865dbc7b5cdb6d6366707fcc57d50d7bd0237cd6e66",
+      "module": "src.nkx_engine.lang.esm_interop",
+      "wrapped_mock_dek": "7eYoINT4YzKImidKX9OVVhejEIrbDE2D9t5wPEVp/Ym4MVySV17cZ5u2nFEMvUXdkeyM+EHx31fawsXO",
+      "mock": "src/nkx_engine/lang/esm_interop.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/generic_text.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "NY0TSIZutq4IsVx4rfs7ljGtVZaA4v/A6TioxcERkaUFDELE8dMySRLn9A/3C/ewHNVHhjvS1hapcM2Q",
+      "sha256": "931f04915fcb67cb058034aa716b672f021d3df34bda59673ca9b152ea1d46bd",
+      "enc_sha256": "a1ca1159bb6e3536bc848756398c9f363b6c12bd307455fdf402207b6157ee6d",
+      "module": "src.nkx_engine.lang.generic_text",
+      "wrapped_mock_dek": "dQtoCENndaSUCrtJdaabIU3s0dTiU6263+PiCsVc4tan2IevGUG7Cdu5tMMMAyTiggXzTZtn/be0MfTg",
+      "mock": "src/nkx_engine/lang/generic_text.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/jsx_support.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "/2z2CsjJ49dr2066BcMn58eN0tQL/mffht682OGxs+tARRMoPqQt4axZXaoPVqRFpRlXsc18dfWiXjLt",
+      "sha256": "5f5ad3ecb1ac4feb9bf34d0c60b3f5eb44266af22f315a6e4ab56db1a1fbe548",
+      "enc_sha256": "89f21575fb9b8566fd32e900bd372a0a3cd7744debdebd9040337dc0b9d310dc",
+      "module": "src.nkx_engine.lang.jsx_support",
+      "wrapped_mock_dek": "UgI7q4x481FevDuJsvYhFZXmGsDwL5yG7wtXwNJZaJ6gQ5FaPQzquDgCtmW+aC/xNaMgF4lYVXDqt68n",
+      "mock": "src/nkx_engine/lang/jsx_support.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/module_resolver.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "BbPeVBozkSrRsC/NFbZY9IxcrInSDVU5KSmfK2TWhEiKAK1SKKVsuqwX6rz0umpIM6ZnGt/68LWBzoUg",
+      "sha256": "518a9f8e1f3e2319466cb7c6540236e83dde228e2629b26260c395dcd3584abd",
+      "enc_sha256": "cda7248f495f65fa38555d3fa2875d8d2c50bebea4187d42c0537bf9c167ff12",
+      "module": "src.nkx_engine.lang.module_resolver",
+      "wrapped_mock_dek": "vchWjA7QB/ZTB+2hObqfBDNtD672JOOTSWlhPDJFneOQglYASjzdTs+zBv8P5vcGWOZoPpUW6n+LJEl2",
+      "mock": "src/nkx_engine/lang/module_resolver.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/python_stub.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "FhXNwP+W1gzXJMWL2FqPbgoZeAqXvhP/KB2sORtdym+Z9NkwYWKvPEJdO8bgZCKcU3YHqhMLZslUVXye",
+      "sha256": "a437b482c8c41f8897c6bb0efbfc3363962f510e492dad6120c0d2675672f128",
+      "enc_sha256": "0b707bc1f36d7d1c22f4fe5235d3c89398ccbb6d7216f8bab15aaf4fee32f22a",
+      "module": "src.nkx_engine.lang.python_stub",
+      "wrapped_mock_dek": "rVnX8WxS/VrFnYMBuIZtyq2BzcsQBK7IZGoEkQ44vIHWz8NPsqeqW20Ca5Y9oZ0A7+wGiZ/IyDidjKEM",
+      "mock": "src/nkx_engine/lang/python_stub.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/sql_text.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "gNkaosTmo6WF16ikUeEMGoIasHSx8IyA2lBSEmzx2jmY5AfshzxVBWaSGjuzfLVsn7OdJ5/sYx2vJPd9",
+      "sha256": "b320cc8883fa8a895a7cbb6ecc8cdccc267be5bf847989765affe18b00868e2b",
+      "enc_sha256": "e1936031bb417d9c5d3a3661a14b17c07f981adadd1380477627d858aad25775",
+      "module": "src.nkx_engine.lang.sql_text",
+      "wrapped_mock_dek": "WkEpQSFM5WMzw0/p/gHskLcdHDEPZj5E82TL5FXF5SI2CoPVtjlcYpiUm6sBv56iE2DG43/m3TxHNO1H",
+      "mock": "src/nkx_engine/lang/sql_text.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/type_only_imports.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "FZgH2aOFNshNvJ+EwfaTBZpjpnEbni//HoVLFk1X9pJlS0hg0Ia6k8rUHW5EKaRpi+EvRDZiC2MP0jdx",
+      "sha256": "5df777b46825ac96e12b723d37fdb3feb26ea8cebde5b8fd2fe57dd9245a1f63",
+      "enc_sha256": "3dd0b71f2fef93eed2da793cde910434a97f2798203166b1b446e8d7c6abdf26",
+      "module": "src.nkx_engine.lang.type_only_imports",
+      "wrapped_mock_dek": "sQy0/ifOIJ14CXJ9fxtBHHt2oKY5LkTdhPiBgvOzvaKHVXSa/BnhrIiNW0uiVWDkKOJa91rYbiVnqwP+",
+      "mock": "src/nkx_engine/lang/type_only_imports.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/lang/typescript_stub.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "kznbTn6A6gS55nj4gRzlp6PhNgubL+tTdZhklui75bRHulxV6xQuu3V8AkTxBBSDlA4DpkHEJ3qXPAlZ",
+      "sha256": "b327864f0d6c4304aa6a28f789c68b13af677db48c3ff54269561b2be0e0e7ac",
+      "enc_sha256": "ca7a2f73287a296066d9a463a95586110fe8b0cd52694ec039a86a7fae9b51ae",
+      "module": "src.nkx_engine.lang.typescript_stub",
+      "wrapped_mock_dek": "iBEyUrdCdZLJ9kfC9YcyH8njG9Yh0ImXM2kgOL2wQctz1T5Ky9t/v5wGNHW4n8C8LszkbADTu/WkEFPz",
+      "mock": "src/nkx_engine/lang/typescript_stub.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/planning/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Gn1r/H/HHi+cyHpKkYp0Eo47AfJmJThoFjRxMjvVZJVpu53lE7Tb9vNs+iui1K4CcEJEQ1xZ+oMUSeI6",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "e101ef32dd925b0b18865fb84fbc42b987d5054eca4cbd359dcd67a57ad34642"
+    },
+    "src/nkx_engine/planning/conflict_report.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "U818pAPT8PImWuvQkGz/pJ9u1soeKlGl553jNlTHPcBlLQTuTJyPjZurj+Sc5PCsg1n9kULhxFlGcswN",
+      "sha256": "da2526093eece0b3e5613b714199cf6b11decfeb7e978a3413b171b818aaa7c9",
+      "enc_sha256": "7873adb6d2d73931b2a2b16944dae2980def1fe2ea10fbc350a6320155b3e76b",
+      "module": "src.nkx_engine.planning.conflict_report",
+      "wrapped_mock_dek": "rNzOmlZUGNwsUSrIZXf5MGUEJvpaK6EEqoUobD7zRUuMdRmB7ppzq/0Sw6m3+mvMXnYpEYCbWz4vyWMS",
+      "mock": "src/nkx_engine/planning/conflict_report.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/planning/dry_run.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "8OaPos0258YIcA9xyTvY3cpyuTr7N1Hf+GCGYEQFpO3kPmzl4RFpv2k7eq+d1rAZyI1hQUyY7OpuFrx0",
+      "sha256": "7702e3fd7354f2ffa92f3295b8934b486c5e0ca833f3dd3184c3449eabcfbd52",
+      "enc_sha256": "0be0453802e3819987d6b336e0ad1cf46e3e8509f00e785aa55d7da91375fa9d",
+      "module": "src.nkx_engine.planning.dry_run",
+      "wrapped_mock_dek": "s+8nUvN1h+OEQm4ZHc8aMwbJS581brB0b1krA5LeFkTUHOLjxz7WEOExrTj5QdIcENxCcbJcZAgC3cyc",
+      "mock": "src/nkx_engine/planning/dry_run.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/planning/hook_plan.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "aNe3e+uAbYWItDU5JCKBIMNWK/9LTx8TfkHprjiaZ/ei63j+u+Pdm8i+s3/rDw62Y+R5Foi+f29BxEKw",
+      "sha256": "eb1a490d493989040caf0e8d490acd0254119cc6bea6b41ded93eff51c34a60b",
+      "enc_sha256": "13f87de984604375813623ad8fc5073120ed288a0be332f4bc7fe959cd539f9e",
+      "module": "src.nkx_engine.planning.hook_plan",
+      "wrapped_mock_dek": "rYXNjuER80I6LDXBCZM1A4lZcFEqT4D0ul0OlfiZ2h3AUKq27ICy/i2iBot/sZM6iL5XLxjX4YRu2jR3",
+      "mock": "src/nkx_engine/planning/hook_plan.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/planning/prebuild_plan.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "rCc7oYcbtw/YWX4ILGm4RqsJ0vwcPilSoRb9JjHEEleY9B3mDkN/en4YMfL77H0yyVh/1HIlMaOD6bDY",
+      "sha256": "6eaedf3b1c7033fae07685f4f0ca68d5c2be74bd28d62190b27517407bab1f44",
+      "enc_sha256": "b463e4ff4c2d0b76b7c322cee071976f32643ffbda25cdf564f39bf74879fc5e",
+      "module": "src.nkx_engine.planning.prebuild_plan",
+      "wrapped_mock_dek": "PZ4ODhc5u+fBmpJxsYLQl+dimoVX0N6IP+XtbriQMwUex+qXmvahdR6OqZLJbc21ApeIqYmU+uO62b17",
+      "mock": "src/nkx_engine/planning/prebuild_plan.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/planning/tier_planner.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "y51QNf50uVuyqNXjZ2ocqZ2tl3ofQl9DVYbHcg53pKTJGSYSYPBv7D4K+77P2fOIIo2uMpzlO8XAtjAP",
+      "sha256": "301d747d73f27747592b60aa55f5cb90900384023432a576db29166fb09fa6f1",
+      "enc_sha256": "c6fe1fecbee50519dc313e9b5d3d83a0144a0346c6537667400680797d64408a",
+      "module": "src.nkx_engine.planning.tier_planner",
+      "wrapped_mock_dek": "s7dkxo9Tfq0sQXx9M3XD095B9PBvjfAhdjkmkb2gMr+iI5PenMQl0nET9CsUITFZ0XMU7nBsa9ME0+5s",
+      "mock": "src/nkx_engine/planning/tier_planner.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/reporting/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "1Y4mw+XYXhUsBW30qQgGlEIybzSXOT+P+kjp/JR0kF4b7w6AKAkva5qZ9HLh6KUycGLY/AKqukplds6c",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "e0992ba689039c38c1124a1be819a7df066ca3a97cb793a06605af4ad65c6776"
+    },
+    "src/nkx_engine/reporting/json_report.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "A0oFuPQK6yTcwwHqiVXOAiIGIW5gGL3y/N6lfbE6YqAltzSMPukuKa78St0Z1m08ohUPv6tRmFm2aBYb",
+      "sha256": "fce6e3fdf1bfcbef24d3b366043d89dfc988c10de4a5ff8d032fff301936527d",
+      "enc_sha256": "c7090ac3b4a2c4de0b1215e5342ae7aa0e137c9085629b81319bfb40b5e53cd8",
+      "module": "src.nkx_engine.reporting.json_report",
+      "wrapped_mock_dek": "WMSJeDiO+FM0+bRWRQGFX+czNVpTQkgVsgFLJ8Ui36SVUJYoLZ1+qAbMk2a2R1Q8baVvzhXw0M8MYShj",
+      "mock": "src/nkx_engine/reporting/json_report.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/reporting/sarif_out.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "J+xHAoF8PYEqbetBZcEYVq2/3vUoTbECX1svvO74j8tL68hHG5aBuLSjXRqXvcaO8ANw0++oyvKly46m",
+      "sha256": "c2fd9a9478f235fa9ca0eb5a5004512461c6e66cd85fe6e56f5622fdf232ac62",
+      "enc_sha256": "86fbd4838587b58b0be48a82c07889c103505b6773227bf5d65206c920b97508",
+      "module": "src.nkx_engine.reporting.sarif_out",
+      "wrapped_mock_dek": "hZKTXcy/l8qPXTO7/yT34Ojm3fN4hcCRGl+7A0mSC1isWKGpHkzcO2goDJqx8/FhURHdSM3WPvSzs3va",
+      "mock": "src/nkx_engine/reporting/sarif_out.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/reporting/summary_table.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "HJfj3sBoujnQbP/iOCNS8dSHpBd3A6xAvHCkATqQ+y7FSiVPdam8/j6mfckO+3y1BAqPxMRKocQ1goxG",
+      "sha256": "061e7148cc08756a064c96aca413948bb8ea5533122e4a8236b88f72ad53021f",
+      "enc_sha256": "7fbd9734f8a630efbec28637464428ced88b79c52d510de096e1434a72d36608",
+      "module": "src.nkx_engine.reporting.summary_table",
+      "wrapped_mock_dek": "9369QVaK1JhNWOLX0UyopRcoJYW4USjfIT370rSDo8zP6YoJsycKzmszYznaFI1zc0au38Wc9QxxD1Wx",
+      "mock": "src/nkx_engine/reporting/summary_table.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "sj/sLDSvqGLOKhWxVY2GK55oLKZsRXUKv9MZi5IAvXa8meBSlr+VKV90/kH+FTbCwQwjZzEjD62LMWGW",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "800637fc24575808a38a17bb9fd7a4a2c60c84be155f851a2f8f8c844a4030b5"
+    },
+    "src/nkx_engine/sealing/blob_writer.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "NGVyxbMnSNrY+boPcWUyjZ8MGivCJv7ipBQ9DdArgxTqU6Hz6T8d4g9HRWHBJ6hpY2wW7rQTuCVmQvRu",
+      "sha256": "8395312fc4b69f380064757dd6618559be27ed7d33b2b60f258e86005956f18e",
+      "enc_sha256": "9cceedc55c556b54ae1f8413742ee5a02699241a75223b4c15e6701f934e4cbe",
+      "module": "src.nkx_engine.sealing.blob_writer",
+      "wrapped_mock_dek": "XxNgqJwTHUYwLI3dE5j9TcUBFAN29H16aNhInU0rfT6Y91Kd6u3sE7VQem6zuj7+bIrcRL/3K3ItwhON",
+      "mock": "src/nkx_engine/sealing/blob_writer.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/chunker.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "pi7sCUKcV/beIVWz93rgFM9zzG0XNcdf9/yiS165SuejSYJVDpVtKFrs4PPdt2ZovEH/8iLKi4Jw6o15",
+      "sha256": "dfbc662ab03eabc6a6c3cdd338a95bd967dc77f29c2bbe10732cdcd91a76d56b",
+      "enc_sha256": "731409546b04b2fe1e41f413ea3a22edba71979bb62cf8fdeaa842f1b7a4257c",
+      "module": "src.nkx_engine.sealing.chunker",
+      "wrapped_mock_dek": "WQR5tyUSLD1CC5nUFBfGZth6XnPauIL5MTyDmbw3bj8i7G7mLHnrPnCELQVThRI1YpcgnqcRtJoTP+g+",
+      "mock": "src/nkx_engine/sealing/chunker.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/large_file.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "oL5hEkopYOt6qcUXW6H+5mFKza7QdB6/LHOLPrEvnq5e+rzdGxhU8b4OOuuUMUF9CKmCWaj2f8T0NGzf",
+      "sha256": "ee9a191e67d0244a74b21bf56c63f9b73c0a34fc41b7773df8f3cdede99c1cc8",
+      "enc_sha256": "ca369b270313d81ae112696e770767c5119bb82b5cd399f1440292e323d1a278",
+      "module": "src.nkx_engine.sealing.large_file",
+      "wrapped_mock_dek": "ccbeHelwNE3utrYrqeliI5wV7orQS1QJ1BKjfGQGKWfWEo5OwWcf4QIrqmFR/8ozYGeXlyPGgxlxHoMb",
+      "mock": "src/nkx_engine/sealing/large_file.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/nonce_pool.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "sBAPG9sPBIV2ldV4yC9f4rdGLK02TB7c7I3f51R7GNO6EvD9QXlhMKQ6OnT0Kq2n0kIx4WrmbuaR2ptB",
+      "sha256": "820c32e5315b8b9ed0de2c68d0feacaef725da1bb1cd1c1ef0afa8d4bbc8d434",
+      "enc_sha256": "93e542305f889f1fc152e6573986eb907523e8431aeb40427785b03f0f2f9bf8",
+      "module": "src.nkx_engine.sealing.nonce_pool",
+      "wrapped_mock_dek": "tPt8rvP0He5piIbBqbqOYFtAZ5z155pwzKGIaFZ86QT3rT9P5kRFkNwQA4B/7w1VamON6KbFrazJAy4Y",
+      "mock": "src/nkx_engine/sealing/nonce_pool.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/seal_container.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "eBvgceEondc+nV45az/Z0HdQbviKl1qgT2pprTIvgjIbPkqGu2U7I0DIN8JIzuZPhhIa4+VWxY8auv+v",
+      "sha256": "ab6ffa3d6192f3b391241437d91a6b5e92af5abf330b2429755368f62afdb743",
+      "enc_sha256": "e1e3f4ac66db303396199aee7e32663efd78e9573415636347d69f48bc405e4d",
+      "module": "src.nkx_engine.sealing.seal_container",
+      "wrapped_mock_dek": "pkNHov3BOkK7Hp4CPgUaecPUSllnGeKRygKBwRT055K5/7t+cVckK+JAAvibn7LrNPDLbIBaP/PlsOCd",
+      "mock": "src/nkx_engine/sealing/seal_container.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/slot_binding.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "8AdL2Dz6Rm7joZLq9LCyp6cyEdtCR1tcbLCtdCDTMYvUhZixTj7xETAhTnDX52l1AS4JTZ1yfchd2yQI",
+      "sha256": "567df5fe43b14c145bfeabacffbae100a780958a9c5cb5d8c6e411e5abfb553f",
+      "enc_sha256": "fb819942c0fc38d24d31895c0f44ebad7c5fc2af5cae6331e7762fe20f184e6f",
+      "module": "src.nkx_engine.sealing.slot_binding",
+      "wrapped_mock_dek": "LOftsucKR5SR7i7evxqmA+435wc8cO1q+vCUuLNB9Ctt9XQVLdivhbVPAAV+z3+S//Tf5UtIDD/J6zSt",
+      "mock": "src/nkx_engine/sealing/slot_binding.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/sealing/stream_cipher.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "65pxdf9eJ4efJSCKBk3Ec91R17kJGa6P9njNWWF9QbcV9JaK46a5CrEiCBiZP1BjizUbA1R8Ah6X1q+M",
+      "sha256": "1120391a0097258fbd55bccd226f27d63b54636a30f184573d608f5674d27f83",
+      "enc_sha256": "a548d26c4c631c8cdec20f7a67d6ece4d75f58d0fb335f457726592d908e14d9",
+      "module": "src.nkx_engine.sealing.stream_cipher",
+      "wrapped_mock_dek": "U3X1D63z3miuWHtP0AlvO1d2SrD+gxB0DnkUaeeIRRbej7HIfkwz2KzRW2fE4/8xTWklw2lyt+L8byZj",
+      "mock": "src/nkx_engine/sealing/stream_cipher.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/signing/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "9qyONgbxs0Nn5s7W6gFbOgU3DVUmcniK1Obagq9RvukZwbBSf8RoZ1+jjq631C04i92Y8xIUVx0Ke6JP",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "c1f1fddd999dce9888519a61fcf0dbe71fddf4dfd6fed80fd43f7657ddef3792"
+    },
+    "src/nkx_engine/signing/cert_chain.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "cWSRuknZWZm/J6ZUDxtSzuweMnnXLzc47CkO4LBAQI/2If4fNkC1SWOzdNYEhjlLUJY1bN01yFNbTHL2",
+      "sha256": "045da133b69e34d176ed8fe79892029db21ba662276a79d6c30930744f253047",
+      "enc_sha256": "d0ee0dddb9a3e19dddc763dd656dc759f18a208b30d7889690bfd2c691e7e0eb",
+      "module": "src.nkx_engine.signing.cert_chain",
+      "wrapped_mock_dek": "5+MYJYe5zepJCaGPuNDBmNnAm3SET08DgEc7/IpnYllEH+mhUGQYBGfyaMkdO54qKLorQoP3tqGxq+rE",
+      "mock": "src/nkx_engine/signing/cert_chain.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/signing/detached_sig.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "HleqxwkK94XhSO22+/xNd0j6Km8+vTwn/DbUDIZarcRbnmXnDzKGHl6IN9StdD4sl87h9nt5CnWCTWEq",
+      "sha256": "31486c565e44624a3c046ffe7618c8debeaffa58333f924a3d40091af6cef7e2",
+      "enc_sha256": "4208bf69518bc955e254f28dd482c8dd023eac39d637ab5d65687bd5c5598f68",
+      "module": "src.nkx_engine.signing.detached_sig",
+      "wrapped_mock_dek": "XKvEOZ70GsTKnggfqG4O3JJTr5qdItqNdrlLYW89+aQoTWigpZya3KL2frvqqkCsXc7Tpj/PZ/KztDqJ",
+      "mock": "src/nkx_engine/signing/detached_sig.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/signing/key_ring.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "mF3k9ZSNsThFKYEmr+++6V8aUq5bZdGppVAibeBp2G8gADu4kLQ3klU7kFBKFntEgGtkRd2aZlN4kJr8",
+      "sha256": "be0c6bb6516b007e77d6a23a72b12508c7b4ae865d474dff73c0e4b5fdde20fd",
+      "enc_sha256": "959643ea594eb5fd85b9ba889094b26ea3ac1a7e1bf6fbd9ad67a83fcc69c88b",
+      "module": "src.nkx_engine.signing.key_ring",
+      "wrapped_mock_dek": "hSi3wgFfsaoJj0LgqlrveIGqMGpX/7dz2Lbw5JkkByDbbO7CbWBCnQVuHhn23n6GRqxcHQL5hCLT7m/s",
+      "mock": "src/nkx_engine/signing/key_ring.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/signing/manifest_merge.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "7zRxc4ekdshoEypsxqGV0d9uzvXPUjrUhI5kgMqEqmN7kRLZl1L+wBN8HJLJGjk13ncEYKamvuvVBcyT",
+      "sha256": "7694b869d99727e2a6e93216fd47e8513d30a855580e7e93f1e66b8eb77c1285",
+      "enc_sha256": "1ed2547a2c8192b5f803b17ac9477d4b64e89bd60e7fecbe767a36b1790830ff",
+      "module": "src.nkx_engine.signing.manifest_merge",
+      "wrapped_mock_dek": "7+N8moGxG3luxllBHFcbPbUUTpGiFlzue+DLVosnHQYaLRtIJ118AhnZ6FpK0viA2Q0jEd+0fTB8EDK5",
+      "mock": "src/nkx_engine/signing/manifest_merge.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/signing/manifest_schema.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "T7AO9sZM9pMNX13DLh3eV/Gj0fN+sTNltRwR4HKplnSHrcXCApbCw+IohhhZsDa4ZRp7s/H7gblXob3O",
+      "sha256": "0a4bf6b9264a3ec94f37da2038c461a24d8495faafc9eb8aface998aae687ea2",
+      "enc_sha256": "5e3c911515e6e9dd878c4d5c0d53625385583ee4aa6a319b621b408920e16a40",
+      "module": "src.nkx_engine.signing.manifest_schema",
+      "wrapped_mock_dek": "dW1MhMa5Qd6YUb5Wv12hz+z+zm6kBraV1ENXg+mCAKesAg1V7OHP0g+H8Un0LRzryoRe9u8mY3oqHQzQ",
+      "mock": "src/nkx_engine/signing/manifest_schema.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "W7IEluoSx2gfbmP/5EBer4CBnjF8Qw/N5h3Hc/TIQpmzxNEIEkhlozlm+GzF8g8WtHUYjBvwyogq431t",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "f5a796bd19e9be163c4f66aedc6578fccd2124d34472965f93bac224a31cbca3"
+    },
+    "src/nkx_engine/walker/binary_sniff.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "slmCFI7Ro27gXTSwtQ78a4GY8qzG425cRDrrlOjKuFT50JcbG7ubbuv8VG1flWvCjxGwK8PtmWpt9cSi",
+      "sha256": "e8ec95554b25e3b3c6d5495d638ec744a3c69acda8c2020401fababb92a3f5f1",
+      "enc_sha256": "62928dbd810ac370e9dc3d87c61d85811fcae08471de39c81b1fe70ea8e7d528",
+      "module": "src.nkx_engine.walker.binary_sniff",
+      "wrapped_mock_dek": "Nq/mrcxNaiIsHT9ARMpGPfXuzvq7DhKcllrmGOK5RavYlBVwVEip7DZWMeZcXd30CX/1VdVlqec7Wroy",
+      "mock": "src/nkx_engine/walker/binary_sniff.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/gitattributes.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "bg1KIbFwCKJDvBiOTQmYCSLXNPzO5dWN0oKEKHlW63ZOd0NdSuQJxrdn/31tOt3efuv8DtTZqnlIL+pE",
+      "sha256": "087d14260c076ec7cc72b045998eae2dd4440a51b94179ba05fb12f9e516b690",
+      "enc_sha256": "d5922008331e994fdb8c2b68bc8ec901ed22484afa1a43a00da168a091e642a3",
+      "module": "src.nkx_engine.walker.gitattributes",
+      "wrapped_mock_dek": "yl3aPHe7BTIVYgbX4vZ3SbR2UE/cjNBlv2gTuhpMpOoKtS7XhCG3y13nd0LX5bI1fG5ortz9Kca6sITf",
+      "mock": "src/nkx_engine/walker/gitattributes.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/hash_index.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "lxNktTSpm2sbvU0tTf52sjw+Y8Hxbf+tXaTMdiNFyk33156YoVJ74lH9H3HXIKyKQ0ZpQ6s/sKnCnOeY",
+      "sha256": "9eb3a6afdc49d4efc4265519ec3e08c69d07ff3cba3d5b86fab28077c7a127c0",
+      "enc_sha256": "8e313acf75e65cdc9c41a25008446b2e00b84d5b09bdaaa3e93dc34c231efacf",
+      "module": "src.nkx_engine.walker.hash_index",
+      "wrapped_mock_dek": "Q1DWkHjJa7UoUh5GTKS1m8HhEtPoXXIdvRNxgUHD7iodVMkwIiV0nvAg40dqZ+RAszjuN8+A07INGjdd",
+      "mock": "src/nkx_engine/walker/hash_index.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/ignore_rules.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "dUYRY5gkuAvb8LPdrI5PC5XUQbAFJSfQy5zITWWNyV7tvm0agAP9w/87LSfRZ02EzbRp7UGGwStPZywD",
+      "sha256": "3d88b1733a4a8593da5e971cc79482680ef48ca46ba8c7c60642b7f22cc6183f",
+      "enc_sha256": "de3560c36ef05965ecbac2090b7f05bf08f040be95ba1f5e898c47b2a1c2b3b9",
+      "module": "src.nkx_engine.walker.ignore_rules",
+      "wrapped_mock_dek": "AGX0pdaO9rAn0wH86D5Gou1d/U69sHKvttGdh0Oz0Y1/MxGDCBILLdsRnFOWetx3ufmoIr3chuslJv4h",
+      "mock": "src/nkx_engine/walker/ignore_rules.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/source_walker.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "cUuBp5w3zTyQVm4NjePtpl17IwM2jLfoowxYUxYpAg/hFcZlR5r6t0aTvHiQQQy913RyaVy2AFe/iOsy",
+      "sha256": "22adf6b89e60b52e3a5086e60676a8d8f017911c5f7f4ff56c6e287dbc1003b3",
+      "enc_sha256": "c791b433805fe8f27bc438f81e7390a1bb34b71a9c4268f19ffb0214143b11c8",
+      "module": "src.nkx_engine.walker.source_walker",
+      "wrapped_mock_dek": "gnm+VwqJkEkCtcMqwqBcguhf8OX+nWu5AxPLbvK7LSZa6GsUFSAt25kJ/YbJ1jK1z3nulQpwZFjT55OD",
+      "mock": "src/nkx_engine/walker/source_walker.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/symlink_guard.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "Cy5m0FfIGUHXUN1lPVLOnLHU9kqyPCq2DZzp0hD7hCBoenapZ/XiSVraPFGUGhDyqCiVFNf7HhM/xhsD",
+      "sha256": "547ec81c999ac0511937b6a2a1ce9fa6be4005f295dc06597df1601e3c359de1",
+      "enc_sha256": "5dd191efe0c129c50722563f303fef0823e3f2bd658d1e89234c661d8aefbf38",
+      "module": "src.nkx_engine.walker.symlink_guard",
+      "wrapped_mock_dek": "rbpKO+nOTaXnewIWFfblshVtPsyGMOsJ6JD3lOHCfVfXlhfQtXZLqpGZHpAkYoMMy8uuB4R6PSF5VXOv",
+      "mock": "src/nkx_engine/walker/symlink_guard.py.mock.py.nkxc"
+    },
+    "src/nkx_engine/walker/tree_diff.py": {
+      "lang": "python",
+      "load_strategy": "hook",
+      "wrapped_dek": "ux0XbzBHrqP/JyBQcjyDPld6QEdD+4C8MVT6ySv5vC4di7fp6tUdIMg/z89t5QrErWs7Zf5rYBy7OCcp",
+      "sha256": "39281c46ddce1e91fad94fa5864592b92baf955c1730d2a740f83f9ff2a25290",
+      "enc_sha256": "32e42d2b810ae222dc45d4914073f24218401d6b7ec60bf169c1bfaeafc551f3",
+      "module": "src.nkx_engine.walker.tree_diff",
+      "wrapped_mock_dek": "CrwZC1Kh/G4hW9SdBcDUJDq/USR11mrtqIAVbBiTS2I96MAksHUryEWoAQXAicgQdrgtvntD+Y7QzBIM",
+      "mock": "src/nkx_engine/walker/tree_diff.py.mock.py.nkxc"
+    },
+    "tests/conftest.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "oIjtrdvaiGVLvOXONsSEF92UD/LcKjTcr5qVSWOwm2Xjv58Dlq4vI1TBt4ZwQNQrJ+rs1sX8VrgNRp5d",
+      "sha256": "5a8de5367e93adbfae5622f0e501c474c6ad35e257dd3926d95de44918a16b25",
+      "enc_sha256": "1713ffe69a98e7e69cabddc541764e2db46f291ebcf459d58639636cc2c0b036"
+    },
+    "tests/lang/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "HEMicSIdV1kPli+dL1GxUvjtUac7TaeRSxKtoUS8wyiyKLy+ao+KY/Aqo/yDk9G5m9sBfwQaNpbHVKwS",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "696750397d80ce84ec6cc873a8d4599acba9f9ac5693c47554c7f137227fd1cd"
+    },
+    "tests/lang/test_decorators.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "0gyEXZ1jKitVjYXpk+HlYU96QZ35z4Jpb4jyfZVzgQKIlDSk3rgi5l238ZTbn4rOZaAGmOl4Wq2eI5xP",
+      "sha256": "0b9d01ceef7af0b50afa641cafbcd27fb97475580a99131413a99a4339f289d6",
+      "enc_sha256": "c8438b62f7fbcf6c74b35001369bc307f98c284d11bfd629f322a915c060e060"
+    },
+    "tests/lang/test_esm_interop.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "d07MAlDWMXru+X47akh5DdxYubcbNpH5WftdaMtI0QJ3LaFuAxj8GbmtlRgXn+ppS8KxH3WFUVRhpc6j",
+      "sha256": "21ecd1c0e3ef5e0be0b66117e48b7f7b420734dc25dbc047348736df2488a07d",
+      "enc_sha256": "f69f89de1bfeaa6d38975c03dfb35ba0521592cce59d902d8775a5ec55f5477e"
+    },
+    "tests/lang/test_generic_text.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "UjgCKUiapeI7j3MWxWxbo5G60lgndl/3B4+Wl7oDjBQM3TR5rivfqNZUE1DYxblrxykOW8BGtZs5vCMe",
+      "sha256": "acd2909bc84697b2413e311571691daa09e69380a7b03b635da7ebd99ef552f1",
+      "enc_sha256": "09633476d7e432aedcf16b7067563d1112981e28b5a16415cac0d8cdececa110"
+    },
+    "tests/lang/test_module_resolver.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Ty1LK7TA0WtbdY4nINp30ogn6vUUN1mCSl+lbZy2rdMACUymCsbSFRtzXAT8bCusBktK3MWNgFD6o/IL",
+      "sha256": "7e87ff02d3c6c5e330ebf900c6cac4ae02e71283395631a0dabc3afe567da06b",
+      "enc_sha256": "499e878ffe6c4bb70c5ab9ba111be3503475fd90a170db32b8e5bc04f35cd24c"
+    },
+    "tests/lang/test_python_stub.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "AIvYWsC0Smr2KRNVVfpv+6ZJQoUjEPB6xmYFsV5BFENPmDN7izyU5fqeHgk8h9U/54+YMbAsRwCaa6YQ",
+      "sha256": "234398b13c86b9b72435ee8905d87b03f2ffd02236d359582aa882072d3d467d",
+      "enc_sha256": "69c9f25754465d285827aead73a46811887b378aff0a84bdf4e0227fd77f1687"
+    },
+    "tests/lang/test_sql_text.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "HxdgXC+QkugMHIPV9ED2GBnJ9k7CyeKh4tKt64I6O7+Ud0votTODhfbjn55ykDpWuggKFExR4twZFah6",
+      "sha256": "0e68859665624a31d2ded06c94806931997a6cf1687712b6ccc09f8ed1a42042",
+      "enc_sha256": "e41f95bc4e5ee0f47c8b746c877219252d29a9895165377e67a291dbd124c113"
+    },
+    "tests/lang/test_type_only_imports.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "ZB6H3Yz/B91vOHxDk9UYBtlQTa5IkfoKq5vIlUzfOaKx7M61sOeJWI7Z4ykkaan2M4KquimY1K2Pp0hK",
+      "sha256": "f300fbe43b64e4e0f2114417e6c1d65917d176226f66c589b69e454d25a153f5",
+      "enc_sha256": "146e55e62fc44e413a1c27289afd7fda06c5cd67f04a151c0786e0ce2c63be05"
+    },
+    "tests/lang/test_typescript_stub.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "EhP0f4RJ72cjdclYL3uEKlZA35ZItuqAkTZhte9kjzPMFqbcdxfOmzKoq2ChZuQwU5m9quiQj8VSY8BV",
+      "sha256": "c47246527837d1421fee6c1d83197b58cea3910240d82da1afc01ab64351c986",
+      "enc_sha256": "98bd2735675d4b33bd5ed069e331d9bef87ef931bc13ca4c4ace910da6828e5d"
+    },
+    "tests/planning/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "0XKCHnQyqyi5jEyF331mRgAysPSZgstXg0/y6IZHjo+7T0knMbPBhSu/sRXuxT6u18pjRp0e50nlOMhO",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "8a24f126b9e771648b49d2f2cfaafc4de8afe35644a89b40a54872f295ae25ba"
+    },
+    "tests/planning/test_hook_plan.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Td1oaEAYHhf8ltOUvRk92jkT+PXoDLLJTI+FA18ir3yNvLh9rMq5dofHYfPyHRQ0KDy8YrMC/q1+1Ifn",
+      "sha256": "67d423eb74202e587a3dd42a41685dda197209911a1d96b8b7635d3bdc757dbe",
+      "enc_sha256": "0e87a7c71dd029be0624cddc1984fb041882053cb74744fb6e3eaa1e6dceff06"
+    },
+    "tests/planning/test_prebuild_plan.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "oBF6V1z0RMgU8yL/i3dD7Wkh5t5uzr/gPLSE8Lh2oxairmW0BOFVvPFUDiEjctesCf2J9LrEg4PW9M2O",
+      "sha256": "282842b8d28fc90855b9e4e2834205da0cd4ca75cdfe076492fa61d3ffb33ed2",
+      "enc_sha256": "e6ee0e7aa193da74a132cc77edf6add3b6d36683061d4784c828237596777cd1"
+    },
+    "tests/reporting/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Pv8xTaurraR7FOB6QNfdsArHCDngQbTECKL80qhmLn8N9f68cM7AWgei8hxAyupFRYk9na3szv801f1S",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "92e27f0e64c9608e71dab99a43cbab5797d467506fe6c9a9c2acbfd7f4d6b77b"
+    },
+    "tests/reporting/test_json_report.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "OrHRFrHmYkjdar7RVYHWdaRPPfaF/ggjbSriVdz9Q7A6draYrrG/OuhpY/4Ghaez9AzGCwJ6IodaNc/s",
+      "sha256": "20d56778db08f8c14c76cfb079c2433040ec0d90e9e15fa09772fd531dde9b84",
+      "enc_sha256": "3bf9306cf813900551af6aebe9638ca09f05571b1514ea8819fecfe34d3b448f"
+    },
+    "tests/reporting/test_sarif_out.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "4QLLvMKF9QuBmQgUjrnnHF/7GfINRVb+Al0prrVkhpKbXPIXIrS8rYufLN/Pv5WwnpZqZnV2PrW0uCQt",
+      "sha256": "70bd73df4bf7baa62c8717bb8649123048708b0327cae20fd7db7ee9df26d215",
+      "enc_sha256": "80db35f2a7fbd529cdeec7fc15a9fc9b8439d9f2c501da920983bdf2999dbc94"
+    },
+    "tests/reporting/test_summary_table.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "YAPcBZfUafkldhf+6m93JfUESmFVvRLwlhZI3kjG6Ylop3zJybyUcCNF8yhen41nUBdPjcPhWjG3XaKc",
+      "sha256": "947c54f5b53dec0f64422568cc4412c8b22d77ddce9099bafc34ee1da9bf860e",
+      "enc_sha256": "acd80c46e171794a50dc83115f90e6fe605f7b6e9c9d1c9338e655d52c2c707c"
+    },
+    "tests/sealing/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "2YW8D4AstpccbhtdWO9hFNxnP5fQqEXP/mB0JoA87uegzyMMEDzsm0WID7FkDY8aqbuMFJILMKTyeu7Z",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "bf44a3b13ad3c28ef33580afe9a92b2631ed0a5efffdcedfbf0e5171df07c1c3"
+    },
+    "tests/sealing/test_blob_writer.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "tkX+3h8tfDVUd/QZRQ7lJ+jpjMMjWGFaaTeWNIrN18cJ24BippgDknqblYvX/KjEewop6ljyrI8XMjMn",
+      "sha256": "6a1896612039d3d9ec8c0a1f1d5080aa62b81d144700bd329f4424457494dcf3",
+      "enc_sha256": "8625448a0729ba4c6b4626d3bbcd32d32b3257d475039ad3b58de14d09f87c02"
+    },
+    "tests/sealing/test_chunker.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "omyawdjM2wBXthhLC7ekSxfSvMrCfkrEDEqmHBs9/Crmwg5xBmu6NzQKL7GAURuzURtDFSZlySMDxrrT",
+      "sha256": "a6efdf97815fe1ab35c1aa9982b00ee10850b742a7583618be1baf210bed4624",
+      "enc_sha256": "f4b9e071399baf966720aee49dfa9e561c0dd8878595961a2ae4f01655d35efb"
+    },
+    "tests/sealing/test_nonce_pool.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "9En7GGjD4e2qjnSNdxkPyWUKKHhwf5Cm8EI6To5+DfQVCoW12B9inv52VUUAjngJ6wgOELitlJs+M5ep",
+      "sha256": "c183dfa102a0b31b30e14ff9516c4ee125330068053b2485fedb9d6ca5d14457",
+      "enc_sha256": "cb9dcbd48f38c1fb04711591d74ff0c060e91556016dd15968d05610e79bfffe"
+    },
+    "tests/sealing/test_seal_container.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "l9/ag5vq/M/YYjB330+fPVYDL+My3Ruml6+whyeXfycnMrG/5B2uvKcdTwtWlLF8HGZpixiWDNZZmL3p",
+      "sha256": "c9b0ed7b3503951e6f14aa6df113cead3caf8ab50a542bd37a5eb92b4bf9d7e7",
+      "enc_sha256": "445b2c57c4b80c8780601986ddfdd5d707bb15f8ace5796963bb10c37127ee8d"
+    },
+    "tests/sealing/test_slot_binding.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Uj3X4W2a45zfAFQ6fwEV8Gx4r6wJi+9TYg9FDYtFzJtIYUfknPyevv1LEDmMbT6G4BaJWATYP/RDHFK+",
+      "sha256": "03302c26be3def61d521b87a7c8e76660fc33dd51da7aa32fe13dba376e9eda8",
+      "enc_sha256": "397452c226942d14a525428b258a3623ff0f8384aae328de1417c4c8265e71e4"
+    },
+    "tests/signing/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "ko+ZSZExsf9IEEBu2SL5crFYCH+84MlIxy4mIHJnteZbC0XC/DDTsUqf6yTr2Y7JiYOF1/1AA9SfKuzZ",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "b54028340682777dd3bf4ea8fc0673cc4a09865ea4b308cfe89f0d57bc3cab7e"
+    },
+    "tests/signing/test_cert_chain.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "IKDW0gkUCd8HHS6zYRuMiLJWKXriJYJc1LhtphFv0qCN7kBldPO+oR+LnU1LE2XcD4W7gPyAmdgMS04g",
+      "sha256": "612a8aa1314bc28f5d7018997cedeecdcd3d2784b79d836c2cc7084ac53d0c54",
+      "enc_sha256": "096198bd47db0de73a90afee9f38368867db25035db176a44f1394ed26fdd25c"
+    },
+    "tests/signing/test_detached_sig.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "i7YTeFl2dCAdXARaXG9bZh9ZTjdYE6Kn5dFf1iET05taF9eZp83wF900kT4/doPLqu6o4lGex77IOQ9g",
+      "sha256": "75cecac8b3cab0d8d0a61fbf3cd7bbcc736eb91233559ecc443a3b5f80aeb926",
+      "enc_sha256": "4e0504a40aa7f96cd68fd71f3c985533233b1e019626d0229deee30f63d652f3"
+    },
+    "tests/signing/test_manifest_merge.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "fUjtE0p5oOxm8ZvkMG1n3rg7duaOE3c+OdpG6sIO6nshv1d2abQ9ix/wcRam66gZE3h3AHOwapkcIRQ/",
+      "sha256": "b430d090cafa3448f4de31912580cbdf3b6e9065e01b3e89c58f2b24404cc609",
+      "enc_sha256": "108ffe2dd54c88e7a88a0f4e6cb30c07c082046c732ecf1c084d4739e3817073"
+    },
+    "tests/signing/test_manifest_schema.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "Qft45r8+G6EBOwzaF7+QpndNCiMBvFWOs2Q6GuR+PAd8swYMVm63qIUtevCSVsIZB7YS/qopUuBPbSxL",
+      "sha256": "1430b046df1e8312ef09e85590196700344a2a15d9094c2361fd8c2a5e784859",
+      "enc_sha256": "fd153f5a14020626e14373061e78c7ba07e803520578d686cdce48a9a41f5eec"
+    },
+    "tests/walker/__init__.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "hpFWwXZ7a9Pwez70pwyCuaOweUVr1cYE4csae7nztx1I0o0kvE0GY4KavjwwQx2nexXh5I7T9+uRwh9e",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "enc_sha256": "e18adc4e508239ebbc910c3bcc9adbddd3c77e1616213eee858658a05f07d161"
+    },
+    "tests/walker/test_gitattributes.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "5VIjZ/IvARcNLlBw25lQT+lsT1KY7w90Wo/FgiO6Siim480JFjbFxfMKsZUDEJJI0ZNZcvv07rcLhNLD",
+      "sha256": "edc69018572d6242d77925f2acedd5dc169efd5c526e77ea19ae89f711b932e0",
+      "enc_sha256": "52c204083be923f00a64e9b5902b563e372149ecf0434595042581d7f29f5241"
+    },
+    "tests/walker/test_hash_index.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "D42Hs8HLIfZrDF1L5q7/r/dsUU5TB6RQwW3Ic+e7FSr+VYeCyCqP6jnILOERmQWj7ZDnTH+oQJ2S2Ox7",
+      "sha256": "c601da90601e196039e76d8a96b21162c85f9007d69bfc452fda7ea3917917e9",
+      "enc_sha256": "7259f7cbb707fbf727cfb5fdc396f49e32184c402d24c3b4cdfaf75ad6e639ed"
+    },
+    "tests/walker/test_ignore_rules.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "gF7rwiNPV/0KlpNjDMPllSMSXXsNLsjLWHM5nvagx7d9hLLmyZivtwf+afTllBxws59UelZDceJe2LaH",
+      "sha256": "4ad5868c38b0d21687bf53ebf6d77efadd1fdf9a2c7361c29adad7b434d3a68e",
+      "enc_sha256": "6139bb4f9aac187c7fc237d0cf6f2c97d429eee0c60cbfbe8717d0e644b2b4c6"
+    },
+    "tests/walker/test_source_walker.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "WcylyqnR91dwkhidM3ZIsEdnnnfU44Q3cEzsbmUGectGkdeptZfYTO8fzR6DqpX0qflWeFA9NDyCcjb4",
+      "sha256": "625c2f0d0fe91cbc8a1d41f3d0c02661ad9f9ce84e8d716794e92a9c18f8b071",
+      "enc_sha256": "3d3f4e225226cfdc32caa2c8c4c424bccb68ccbaffedd66c3b5af5d75138de33"
+    },
+    "tests/walker/test_symlink_guard.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "nWx2lsqgBsO/FA0hleDskDZkqd9EzulR315xvsiG2nFMPMBcM7ZcGYPSuwiHw5cBgQRAhPhZEKj4ea6A",
+      "sha256": "10d60d4237e49145796a3e05aab6896238817ac152b1080fff2ec6ed04ec495a",
+      "enc_sha256": "f3de9378f4813721a21fccb4f7b40cb3130184e90ec5c142ca009220b1ddab4c"
+    },
+    "tests/walker/test_tree_diff.py": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "CrnH/+OQWWVCZouCmogrru2psVfpbdBGlpkh/n1gqqYcl3UFz17ZAvXs+iMYvoMwwKmB+tTyF8wBiW88",
+      "sha256": "918d1880ecc0ee6df329c2919aff2b5169c64dd63577a2d8a5011daee1b37feb",
+      "enc_sha256": "17f558b9779c1453e66202aac65df02058e835544cd5f104ce75eff827f657b5"
+    }
+  },
+  "key_version": 1
+}
