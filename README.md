@@ -9,6 +9,8 @@
 
 # NakodaX Source Protection: an encrypted codebase, left in public
 
+**Our code is public. Our source isn't.**
+
 ![Encryption: AES-256-GCM](https://img.shields.io/badge/encryption-AES--256--GCM-00B26D) ![Protected files: 704](https://img.shields.io/badge/protected%20files-704-00B26D) ![Licence: proprietary](https://img.shields.io/badge/licence-proprietary-555) ![Runtimes: Node.js and Python](https://img.shields.io/badge/runtimes-Node.js%20%7C%20Python-555)
 
 **We protect our own code with NakodaX. This repository is what that looks like from the outside.**
@@ -146,8 +148,8 @@ Email **support@nakodax.com** with the subject `Source review: nkx-source-protec
 
 - **CSA STAR Level 1:** [listed on the CSA STAR Registry](https://cloudsecurityalliance.org/star/registry/nakodax-technologies-private-limited/services/nakodax), with our CAIQ answers public.
 - **ISO/IEC 5230 and ISO/IEC 18974:** open source licence compliance and open source security assurance, [listed by OpenChain](https://openchainproject.org/community-of-conformance) ([announcement](https://openchainproject.org/news/2026/11/05/nakodax-announces-an-openchain-conformant-program)).
-- **NIST CSF 2.0:** self-assessed alignment across all 22 categories, updated every quarter.
-- **NIST SSDF (SP 800-218):** our software development practices are self-assessed against the Secure Software Development Framework.
+- **NIST CSF 2.0:** alignment across all 22 categories, updated every quarter.
+- **NIST SSDF (SP 800-218):** our software development practices follow the Secure Software Development Framework.
 
 Full details are on [nakodax.com/security](https://nakodax.com/security). For security documentation or a questionnaire, email security@nakodax.com.
 
